@@ -23,16 +23,16 @@ This project is an implementation of the concept "keyword in context" in Python 
 
 To run the tenth test and compare it with the expected output, assuming all files are in the current directory: 
 
-'''$ cat in10.txt | ./driver-original.py | diff - out10.txt'''
+```$ cat in10.txt | ./driver-original.py | diff - out10.txt```
 
 ## Using driver-new.py
 
 To create an ouput file, which you then must compare in a seperate command:
 
-'''
+```
 $ ./driver-new.py --in in10.txt -- out \_out10.txt
 $ diff out10.txt \_out10.txt
-'''
+```
 
 Note: Make sure not to overwrite the correct test output file with your own output when using 'driver-new.py'
 
