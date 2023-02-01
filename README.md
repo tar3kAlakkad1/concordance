@@ -23,9 +23,7 @@ This project is an implementation of the concept "keyword in context" in Python 
 
 To run the tenth test and compare it with the expected output, assuming all files are in the current directory: 
 
-'''
-$ cat in10.txt | ./driver-original.py | diff - out10.txt
-'''
+'''$ cat in10.txt | ./driver-original.py | diff - out10.txt'''
 
 ## Using driver-new.py
 
