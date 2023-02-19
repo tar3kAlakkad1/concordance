@@ -2,7 +2,7 @@
 Main idea: code written in Python that tackles a version of concordance known as keyword in context. 
 Note: This project was completed as an assignment requirement for UVic's SENG-265. The below 'explanation' has been provided from Dr. Michael Zastre's assignment description.
 
-The Oxford English Dictionary defines a concordance is an “alphabeticalarrangement of principal words contained in a book, with citations of the passagesin which they occur”. Someone using a concordance is therefore able to look up aword of interest to them for that book, and find all the locations (page numbers andline numbers) where the word is used
+The Oxford English Dictionary defines a concordance as an “alphabetical arrangement of principal words contained in a book, with citations of the passages in which they occur”. Someone using a concordance is therefore able to look up aword of interest to them for that book, and find all the locations (page numbers and line numbers) where the word is used.
 
 
 This project is an implementation of the concept "keyword in context" in Python 3. The implementation is written in a less resource-restricted way, allowing for larger inputs without constraints on maximum values for the number of input lines, exception words, keywords, lengths of words, or lengths of input lines. The input words can be in upper or lower case, but exception words will still be lower-case and stored alphabetically. 
@@ -30,8 +30,8 @@ To run the tenth test and compare it with the expected output, assuming all file
 To create an ouput file, which you then must compare in a seperate command:
 
 ```
-$ ./driver-new.py --in in10.txt -- out \_out10.txt
-$ diff out10.txt \_out10.txt
+$ ./driver-new.py --in in10.txt -- out _out10.txt
+$ diff out10.txt _out10.txt
 ```
 
 Note: Make sure not to overwrite the correct test output file with your own output when using 'driver-new.py'
